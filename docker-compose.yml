@@ -1,0 +1,9 @@
+services:
+  app:
+    image: tldevde/bitwarden-auto-confirm:latest
+    restart: unless-stopped
+    environment:
+      BW_CLIENTID: "user.XXXX"
+      BW_CLIENTSECRET: "1234567890"
+      BW_PASSWORD: "0987654321"
+      BW_SERVER: "https://vaultwarden.example.com"
