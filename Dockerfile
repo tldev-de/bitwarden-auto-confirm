@@ -19,6 +19,7 @@ USER nonroot
 
 COPY *.sh /
 
-ENV SYNC_INTERVAL=600
+ENV SYNC_INTERVAL=3600
+ENV BW_SERVER=https://vault.bitwarden.eu
 
 CMD ["/loop.sh"]

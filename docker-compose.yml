@@ -7,3 +7,4 @@ services:
       BW_CLIENTSECRET: "1234567890"
       BW_PASSWORD: "0987654321"
       BW_SERVER: "https://vaultwarden.example.com"
+      SYNC_INTERVAL: 3600

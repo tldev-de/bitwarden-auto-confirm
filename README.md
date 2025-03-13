@@ -19,10 +19,10 @@ found [here](https://bitwarden.com/help/personal-api-key/).
 
 ## environment variables
 
-| Variable             | Description                                                                             |
-|----------------------|-----------------------------------------------------------------------------------------|
-| `BW_CLIENT_ID`       | The client id of your vaultwarden / bitwarden account                                   |
-| `BW_CLIENT_SECRET`   | The client secret of your vaultwarden / bitwarden account                               |
-| `BW_MASTER_PASSWORD` | The master password of your vaultwarden / bitwarden account                             |
-| `BW_SERVER`          | The URL to your bitwarden / vaultwarden instance, e.g. https://vaultwarden.example.com/ |
-| `SYNC_INTERVAL`      | The interval in seconds to check for new invitations. Defaults to 3600 seconds.         |
+| Variable             | Description                                                                             | Default Value              |
+|----------------------|-----------------------------------------------------------------------------------------|----------------------------|
+| `BW_CLIENT_ID`       | **[Mandatory]** The client id of your vaultwarden / bitwarden account                   |                            |
+| `BW_CLIENT_SECRET`   | **[Mandatory]** The client secret of your vaultwarden / bitwarden account               |                            |
+| `BW_MASTER_PASSWORD` | **[Mandatory]** The master password of your vaultwarden / bitwarden account             |                            |
+| `BW_SERVER`          | The URL to your bitwarden / vaultwarden instance, e.g. https://vaultwarden.example.com/ | https://vault.bitwarden.eu |
+| `SYNC_INTERVAL`      | The interval in seconds to check for new invitations.                                   | 3600                       |
